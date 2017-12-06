@@ -1,0 +1,23 @@
+{
+  "name": "muvo/rpc",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Vladislav O. Muschinskikh",
+      "email": "i@vlad.guru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-xmlrpc": "*",
+    "guzzlehttp/guzzle": "~6.0",
+    "monolog/monolog": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MuVO\\RPC\\": "src/"
+    }
+  }
+}
